@@ -1,0 +1,8 @@
+.message-container{
+    display: flex;
+    text-align: center;
+    margin-top: 320px;
+    position: absolute;
+    background-color: rgb(243, 236, 176);
+    padding: 15px;
+}
