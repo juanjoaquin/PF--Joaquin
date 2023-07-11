@@ -33,7 +33,7 @@ const Cart = () => {
         e.preventDefault();
 
         if(values.email !== values.repetirEmail) {
-            return alert("no")
+            return alert("Deben ser emails iguales")
         }
         const docRef = await addDoc(collection(db, "purchasesCollection"), {
             values,
